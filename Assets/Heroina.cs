@@ -29,10 +29,11 @@ public class Heroina : MonoBehaviour
             collision.gameObject.SendMessage("SetTimeScaleItem", new float[] { SpeedUp, SpeedUpDur });
 
 
+            Destroy(gameObject);
 
         }
 
-        Destroy(gameObject);
+        
     }
 
 

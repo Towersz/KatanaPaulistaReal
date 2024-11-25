@@ -9,7 +9,9 @@ public class REMÉDIO : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.SendMessage("Droga", -1);
+
+            Destroy(gameObject);
+
         }
-        Destroy(gameObject);
     }
 }

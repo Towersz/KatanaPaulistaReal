@@ -28,11 +28,10 @@ public class Coca : MonoBehaviour
             collision.gameObject.SendMessage("Droga", 1);
             collision.gameObject.SendMessage("SetTimeScaleItem", new float[] { SpeedUp, SpeedUpDur });
 
-
+            Destroy(gameObject);
 
         }
 
-        Destroy(gameObject);
     }
 
 

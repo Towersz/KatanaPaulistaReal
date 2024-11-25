@@ -48,6 +48,12 @@ public class Anarquista : MonoBehaviour, IDamageable
         health -= (int)damageAmount;
         Barra_VIda.SetHealth(health);
     }
+    public void Cura(float HealAmount)
+    {
+        health += (int)HealAmount;
+        Barra_VIda.SetHealth(health);
+
+    }
 
     public void Damage(float damageAmount, float KBForce, Vector2 KBAngle)
     {
