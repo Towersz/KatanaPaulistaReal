@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1070442451207359016}
   - component: {fileID: 2143350957770455814}
   - component: {fileID: 5451809655163687784}
-  - component: {fileID: 8399781410083737948}
-  m_Layer: 0
+  - component: {fileID: 6203373202922421787}
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alvo: {fileID: 4370609364361033193}
   "acelera\xE7\xE3oCamera": 2
---- !u!114 &8399781410083737948
+--- !u!114 &6203373202922421787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
-  m_Dithering: 1
+  m_Dithering: 0
   m_ClearDepth: 1
   m_AllowXRRendering: 1
   m_AllowHDROutput: 1
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 8875459680973798735}
   - component: {fileID: 6560607394216845402}
   - component: {fileID: 1829100216208152954}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602349950826914247}
   - component: {fileID: 3914000580919167817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Light 2D (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 3216058100267751323}
   - component: {fileID: 482481857855252709}
   - component: {fileID: 4872661420763428273}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 3819843916174960363}
   - component: {fileID: 6256213476028411173}
   - component: {fileID: 3621997240351461509}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: borda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,10 +432,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8512835902976155899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.03241, y: 0.037994385}
-  m_SizeDelta: {x: 111.128784, y: 24.448303}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -3.6645, y: 0.9568}
+  m_SizeDelta: {x: 119.4814, y: 26.2859}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6256213476028411173
 CanvasRenderer:
@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 1772393669320872038}
   - component: {fileID: 2267797605895110169}
   - component: {fileID: 2263311128745787473}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Anarquista
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ Transform:
   m_GameObject: {fileID: 3968878126758125938}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.09, y: -2.23, z: 0}
+  m_LocalPosition: {x: -10.67, y: -8.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -634,9 +634,9 @@ MonoBehaviour:
   Barra_VIda: {fileID: 4168757680634623338}
   Barra_Overdose: {fileID: 946570085667997344}
   Drug: 0
-  damage: 0
-  KBForce: 0
-  KBAngle: {x: 0, y: 0}
+  damage: 5
+  KBForce: 5
+  KBAngle: {x: 2, y: 2}
   Vel: 200
   jumpTime: 0.1
   jumpForce: 8
@@ -677,7 +677,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.10015392, y: 0.010742545}
+  m_Offset: {x: 0.12399006, y: 0.0080809}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -688,7 +688,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9941387, y: 2.2038848}
+  m_Size: {x: 1.0656452, y: 2.194262}
   m_EdgeRadius: 0
 --- !u!114 &2263311128745787473
 MonoBehaviour:
@@ -713,13 +713,13 @@ GameObject:
   - component: {fileID: 2293923833604837427}
   - component: {fileID: 3863379462657981273}
   - component: {fileID: 5341122873310849932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BoxAtack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2293923833604837427
 Transform:
   m_ObjectHideFlags: 0
@@ -776,7 +776,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 8805916300571424615}
   - component: {fileID: 5865710001178783793}
   - component: {fileID: 5940127898097802620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BoxAtack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -894,7 +894,7 @@ GameObject:
   - component: {fileID: 6629060127722134443}
   - component: {fileID: 7901778845527983297}
   - component: {fileID: 6571425221920164662}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +996,7 @@ GameObject:
   - component: {fileID: 3314840545860772338}
   - component: {fileID: 3153910601494699529}
   - component: {fileID: 1196211881330251866}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1012,15 +1012,15 @@ RectTransform:
   m_GameObject: {fileID: 6827121459102179081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.41, y: 0.26, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8512835902976155899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.09950256, y: 0.40350723}
-  m_SizeDelta: {x: 0.19901, y: 0.807}
+  m_AnchoredPosition: {x: 2.6874, y: 1.3188}
+  m_SizeDelta: {x: 63.7177, y: 48.0363}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3153910601494699529
 CanvasRenderer:
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 8829988147235653680}
   - component: {fileID: 9197940488788194839}
   - component: {fileID: 348469058074947785}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1146,7 +1146,7 @@ GameObject:
   - component: {fileID: 8512835902976155899}
   - component: {fileID: 3279318966492251090}
   - component: {fileID: 4168757680634623338}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Barra de vida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1169,10 +1169,10 @@ RectTransform:
   - {fileID: 3819843916174960363}
   m_Father: {fileID: 3849704737629914648}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.053604417, y: 0.9004789}
-  m_AnchorMax: {x: 0.11800001, y: 0.93700004}
-  m_AnchoredPosition: {x: -0.0024414062, y: -1.8898926}
-  m_SizeDelta: {x: 0.0050316, y: 4.6067}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 46.4, y: -24.2}
+  m_SizeDelta: {x: 35.27472, y: 16.618408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3279318966492251090
 MonoBehaviour:
@@ -1249,7 +1249,7 @@ GameObject:
   - component: {fileID: 8575802465517700029}
   - component: {fileID: 8049262962624600545}
   - component: {fileID: 946570085667997344}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1263,7 +1263,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8197581631238748434}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1272,10 +1272,10 @@ RectTransform:
   - {fileID: 8503548184862758620}
   m_Father: {fileID: 3849704737629914648}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -124.1, y: 115.9}
-  m_SizeDelta: {x: 85.8375, y: 20}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 42.7, y: -57.7}
+  m_SizeDelta: {x: 85.837494, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8049262962624600545
 MonoBehaviour:

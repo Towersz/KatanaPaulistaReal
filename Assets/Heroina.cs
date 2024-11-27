@@ -17,8 +17,8 @@ public class Heroina : MonoBehaviour
 
     void Update()
     {
-        Time.timeScale += (1f / SpeedUpDur) * Time.unscaledDeltaTime;
-        Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+        //Time.timeScale += (1f / SpeedUpDur) * Time.unscaledDeltaTime;
+        //Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

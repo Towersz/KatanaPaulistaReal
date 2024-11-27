@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
+    internal static object main;
     [SerializeField] private Transform alvo;
 
     [SerializeField] private float aceleraçãoCamera;
