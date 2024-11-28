@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5972670146204299385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2881296913697818107}
+  - component: {fileID: 3653889286742868837}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2881296913697818107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972670146204299385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.823243, y: 3.1192656, z: -0.032386642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3653889286742868837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972670146204299385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e6f2472e74aa64a96eda18cc569b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soms:
+  - clip: {fileID: 8300000, guid: 5efd0d99b6f4b5347ae6e8404fb98c77, type: 3}
+    nome: musica de fundo
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: bccafe8afa502c94eae51baa9504ca87, type: 3}
+    nome: andando
+    volume: 1
+    pitch: 2.18
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 5dcaa3d097daadb43a74766e2643b4b5, type: 3}
+    nome: ataque
+    volume: 1
+    pitch: 2.15
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a438f516611663b4cb3075b65b5d246d, type: 3}
+    nome: Dano
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a51a9e8964517fa4b84d594e65bd8b09, type: 3}
+    nome: tiro drone
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: dd92908d194c7ec41be56d9709ccb55d, type: 3}
+    nome: tiroAmericano
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: cb27b7279a7daf04390fa58e70b06669, type: 3}
+    nome: PlayerD
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6563174e3b2bee34a988af64de201e5d, type: 3}
+    nome: pulo
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: afb13bbc3e8c6514482e4fdce9c908c7, type: 3}
+    nome: Item I
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 024ee2e32da98f04a946932c96471b87, type: 3}
+    nome: Agua
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 9d5c213b6c752ab4fa0f859a07b79900, type: 3}
+    nome: Item II
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 3ea04905daaaf5b4c9d786bfd040ddca, type: 3}
+    nome: rato
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f04b3b6a35656bd428dcfe29df909877, type: 3}
+    nome: morte
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 024ee2e32da98f04a946932c96471b87, type: 3}
+    nome: agua
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 70d6a71c383421142a185b0976677de4, type: 3}
+    nome: Item III
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 1439c3881b75f844eaaa7b2d0a28ee68, type: 3}
+    nome: PortaAberta
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: ca0159a3daf3c194ea993313d2c043d0, type: 3}
+    nome: PortaFec
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: ece2670504a11eb4e841a8f9585e750d, type: 3}
+    nome: Explosao
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 93afc134a00440441bab03568671b90e, type: 3}
+    nome: DanoInimigo
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

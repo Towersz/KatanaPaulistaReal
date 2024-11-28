@@ -47,6 +47,7 @@ public class Anarquista : MonoBehaviour, IDamageable
     {
         health -= (int)damageAmount;
         Barra_VIda.SetHealth(health);
+        FindObjectOfType<AudioManager>().Play("Dano");
     }
     public void Cura(float HealAmount)
     {
@@ -112,6 +113,7 @@ public class Anarquista : MonoBehaviour, IDamageable
             float velocidadeX = Mathf.Abs(rig.velocity.x);
 
             this.animator.SetBool("Andando", true);
+            FindObjectOfType<AudioManager>().Play("andando");
         }
         else
         {
@@ -167,6 +169,7 @@ public class Anarquista : MonoBehaviour, IDamageable
     {
         if (Input.GetButtonDown("Fire1")) // Attack on Space key press.
         {
+            FindObjectOfType<AudioManager>().Play("ataque");
             this.animator.SetBool("Ataque", true);
             Invoke("ActivateHitbox", 0.2f); // Activate hitbox after 0.2 seconds.
             Invoke("DeactivateHitbox", 0.4f); // Deactivate hitbox after 0.4 seconds.
@@ -255,6 +258,7 @@ public class Anarquista : MonoBehaviour, IDamageable
             int FacingDirection = transform.position.x > collision.transform.position.x ? -1 : 1;
             damageable.Damage(damage, KBForce, new Vector2 (KBAngle.x * FacingDirection, KBAngle.y));
             Debug.Log("bateu");
+            
         }
 
     }

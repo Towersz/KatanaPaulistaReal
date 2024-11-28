@@ -55,6 +55,7 @@ public class Rato : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.SendMessage("Damage", 1);
+            FindObjectOfType<AudioManager>().Play("rato");
         }
     }
     private void OnDrawGizmos()

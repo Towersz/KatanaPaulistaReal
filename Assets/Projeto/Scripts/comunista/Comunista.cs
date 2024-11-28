@@ -153,6 +153,7 @@ public class Comunista : MonoBehaviour, IDamageable
         else
         {
             SwitchState(damagedState);
+            FindObjectOfType<AudioManager>().Play("DanoInimigo");
         }
     }
     public void Flip()

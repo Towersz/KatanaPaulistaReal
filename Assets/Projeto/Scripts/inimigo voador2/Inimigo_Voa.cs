@@ -33,11 +33,15 @@ public class Inimigo_Voa : MonoBehaviour, IDamageable
         else if (distanceFromPlayer <= tiroRange && tiroSpeed < Time.time)
         {
             Instantiate(tiro,tiroPos.transform.position,Quaternion.identity);
+            FindObjectOfType<AudioManager>().Play("tiro drone");
+
             tiroSpeed = Time.time + tiroRate;
         }
 
         if (Vida <= 0)
         {
+            FindObjectOfType<AudioManager>().Play("Explosao");
+
             Destroy(gameObject);
         }
     }

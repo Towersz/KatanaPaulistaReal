@@ -37,8 +37,9 @@ public class Tiro : MonoBehaviour, IDamageable
             if (timer > 1)
             {
                 timer = 0;
-          
+        
                 Shoot();
+                FindObjectOfType<AudioManager>().Play("tiroAmericano");
             }
            
             
@@ -78,6 +79,7 @@ public class Tiro : MonoBehaviour, IDamageable
         {
             this.anim.SetBool("morre", false);
             this.anim.SetBool("dano", true);
+            FindObjectOfType<AudioManager>().Play("Dano");
 
         }
     }

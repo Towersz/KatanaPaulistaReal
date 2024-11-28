@@ -58,6 +58,8 @@ public class drone : MonoBehaviour,IDamageable
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.SendMessage("Damage", 10);
+            FindObjectOfType<AudioManager>().Play("Explosao");
+
 
         }
         Destroy(gameObject);
@@ -70,5 +72,11 @@ public class drone : MonoBehaviour,IDamageable
     public void Damage(float damageAmount, float KBForce, Vector2 KBAngle)
     {
         Vida -= damageAmount;
+
+        if (Vida <= 10)
+        {
+            FindObjectOfType<AudioManager>().Play("Explosao");
+            Destroy(gameObject);
+        }
     }
 }
