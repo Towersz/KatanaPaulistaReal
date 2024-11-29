@@ -17,8 +17,7 @@ public class Heroina : MonoBehaviour
 
     void Update()
     {
-        //Time.timeScale += (1f / SpeedUpDur) * Time.unscaledDeltaTime;
-        //Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,6 +26,7 @@ public class Heroina : MonoBehaviour
             collision.gameObject.SendMessage("Droga",1);
             Debug.Log("colidiu"+ collision.gameObject.name);
             collision.gameObject.SendMessage("SetTimeScaleItem", new float[] { SpeedUp, SpeedUpDur });
+            FindObjectOfType<AudioManager>().Play("Item III");
 
 
             Destroy(gameObject);

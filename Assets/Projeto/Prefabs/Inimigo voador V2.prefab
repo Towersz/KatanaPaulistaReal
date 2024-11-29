@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 16
   m_Sprite: {fileID: -512481833, guid: 5fc4aa9a9fba57c4a8761e733f142951, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -124,8 +124,9 @@ MonoBehaviour:
   speed: 2
   lineOfSite: 8.28
   tiroRange: 5
-  tiro: {fileID: 3902506678851173244, guid: 5de03628806f4fe40bf84665d085951b, type: 3}
+  tiro: {fileID: 2206269971493630405, guid: 408ca7ee7bed0e542952244b15b33f72, type: 3}
   tiroPos: {fileID: 8422829016441997808}
+  explosion: {fileID: 4376825258279315529, guid: 1798045c7abe6ab48b9e611765973b46, type: 3}
   tiroRate: 1
   Vida: 0
   MaxVida: 10

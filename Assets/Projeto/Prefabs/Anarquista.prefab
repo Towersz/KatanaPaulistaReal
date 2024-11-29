@@ -635,11 +635,11 @@ MonoBehaviour:
   Barra_Overdose: {fileID: 946570085667997344}
   Drug: 0
   damage: 5
-  KBForce: 5
-  KBAngle: {x: 2, y: 2}
+  KBForce: 2
+  KBAngle: {x: 3, y: 1}
   Vel: 200
   jumpTime: 0.1
-  jumpForce: 8
+  jumpForce: 3
   rig: {fileID: 2534755993126411611}
   spriteRenderer: {fileID: 7165275213162279226}
   animator: {fileID: 6261553816011929165}

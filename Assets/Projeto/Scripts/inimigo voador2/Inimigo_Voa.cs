@@ -10,6 +10,7 @@ public class Inimigo_Voa : MonoBehaviour, IDamageable
     public float tiroRange;
     public GameObject tiro;
     public GameObject tiroPos;
+    public GameObject explosion;
     public float tiroRate = 1f;
     private float tiroSpeed;
     public float Vida;
@@ -33,17 +34,15 @@ public class Inimigo_Voa : MonoBehaviour, IDamageable
         else if (distanceFromPlayer <= tiroRange && tiroSpeed < Time.time)
         {
             Instantiate(tiro,tiroPos.transform.position,Quaternion.identity);
-            FindObjectOfType<AudioManager>().Play("tiro drone");
 
             tiroSpeed = Time.time + tiroRate;
+
+            FindObjectOfType<AudioManager>().Play("tiro drone");
+
+            Debug.Log("atirou");
         }
 
-        if (Vida <= 0)
-        {
-            FindObjectOfType<AudioManager>().Play("Explosao");
-
-            Destroy(gameObject);
-        }
+       
     }
     private void OnDrawGizmosSelected()
     {
@@ -61,6 +60,13 @@ public class Inimigo_Voa : MonoBehaviour, IDamageable
     public void Damage(float damageAmount, float KBForce, Vector2 KBAngle)
     {
         Vida -= damageAmount;
+
+        if (Vida <= 0)
+        {
+            FindObjectOfType<AudioManager>().Play("Explosao");
+            Instantiate(explosion, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 }
 

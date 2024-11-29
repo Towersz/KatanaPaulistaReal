@@ -34,10 +34,15 @@ public class Porta2 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
+        FindObjectOfType<AudioManager>().Play("PortaAberta");
+
         this.animator.SetBool("Fechado?", false);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        
+        FindObjectOfType<AudioManager>().Play("PortaFec");
         this.animator.SetBool("Fechado?", true);
     }
 }

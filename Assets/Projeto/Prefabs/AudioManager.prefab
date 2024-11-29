@@ -159,3 +159,9 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 3cc055af2585c8942b60cd0b4a06b51e, type: 3}
+    nome: correndo
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}

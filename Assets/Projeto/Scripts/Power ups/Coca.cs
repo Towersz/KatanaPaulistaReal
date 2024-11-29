@@ -18,8 +18,7 @@ public class Coca : MonoBehaviour
 
     void Update()
     {
-        //Time.timeScale += (1f / SpeedUpDur) * Time.unscaledDeltaTime;
-        //Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,6 +26,7 @@ public class Coca : MonoBehaviour
         {
             collision.gameObject.SendMessage("Droga", 1);
             collision.gameObject.SendMessage("SetTimeScaleItem", new float[] { SpeedUp, SpeedUpDur });
+            FindObjectOfType<AudioManager>().Play("Item III");
 
             Destroy(gameObject);
 

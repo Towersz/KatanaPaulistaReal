@@ -84,12 +84,7 @@ public class Anarquista : MonoBehaviour, IDamageable
             Destroy(gameObject);
 
 
-        //apaga
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Time.timeScale = 1;
-            Debug.Log("blab lablalsdf");
-        }
+       
     }
 
     private void Movimento()
@@ -114,7 +109,7 @@ public class Anarquista : MonoBehaviour, IDamageable
             float velocidadeX = Mathf.Abs(rig.velocity.x);
 
             this.animator.SetBool("Andando", true);
-            FindObjectOfType<AudioManager>().Play("andando");
+            FindObjectOfType<AudioManager>().Play("correndo");
         }
         else
         {
@@ -123,6 +118,7 @@ public class Anarquista : MonoBehaviour, IDamageable
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
+            FindObjectOfType<AudioManager>().Play("correndo");
 
             this.animator.SetBool("Correndo", true);
             Vel = 400;
@@ -150,6 +146,7 @@ public class Anarquista : MonoBehaviour, IDamageable
         {
             if (jumpTimeCounter > 0)
             {
+                FindObjectOfType<AudioManager>().Play("pulo");
 
                 rig.velocity = Vector2.up * jumpForce;
                 jumpTimeCounter -= Time.deltaTime;

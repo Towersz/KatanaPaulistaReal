@@ -8,6 +8,7 @@ public class drone : MonoBehaviour,IDamageable
     public bool chase = false;
     public Transform pontoinicio;
     private GameObject player;
+    public GameObject explosion;
     public float Vida;
     public float MAxVida=10;
     void Start()
@@ -58,11 +59,14 @@ public class drone : MonoBehaviour,IDamageable
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.SendMessage("Damage", 10);
+            
             FindObjectOfType<AudioManager>().Play("Explosao");
+            Instantiate(explosion, transform.position, Quaternion.identity);
+            Destroy(gameObject);
 
-
+          
         }
-        Destroy(gameObject);
+        
     }
 
     public void Damage(float damageAmount)
@@ -76,6 +80,7 @@ public class drone : MonoBehaviour,IDamageable
         if (Vida <= 10)
         {
             FindObjectOfType<AudioManager>().Play("Explosao");
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

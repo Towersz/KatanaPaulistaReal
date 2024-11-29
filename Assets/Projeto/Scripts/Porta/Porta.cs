@@ -18,13 +18,21 @@ public class Porta : MonoBehaviour
     {
         if(Aberto == true)
         {
+            FindObjectOfType<AudioManager>().Play("PortaAberta");
+
             this.animator.SetBool("Abrido", true);
             this.BoxCollider2D.enabled = false;
+            
+
         }
         else if (Aberto == false)
         {
+            FindObjectOfType<AudioManager>().Play("PortaFec");
+
             this.animator.SetBool("Abrido", false);
             this.BoxCollider2D.enabled = true;
+            
+
         }
     }
 }
