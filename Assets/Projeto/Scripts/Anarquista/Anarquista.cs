@@ -70,19 +70,18 @@ public class Anarquista : MonoBehaviour, IDamageable
 
     private void FixedUpdate()
     {
-        Movimento();
+        
     }
     private void Update()
     {
+        Movimento();
         Jump();
         animação();
         Ataque();
         if (health <= 0)
-            
-        Destroy(gameObject);
+            Destroy(gameObject);
         if (Drug >= 5)
-            
-        Destroy(gameObject);
+            Destroy(gameObject);
 
 
         //apaga
@@ -115,7 +114,7 @@ public class Anarquista : MonoBehaviour, IDamageable
             float velocidadeX = Mathf.Abs(rig.velocity.x);
 
             this.animator.SetBool("Andando", true);
-            FindObjectOfType<AudioManager>().Play("correndo");
+            FindObjectOfType<AudioManager>().Play("andando");
         }
         else
         {
@@ -126,7 +125,6 @@ public class Anarquista : MonoBehaviour, IDamageable
         {
 
             this.animator.SetBool("Correndo", true);
-            FindObjectOfType<AudioManager>().Play("correndo");
             Vel = 400;
         }
         else
@@ -145,7 +143,6 @@ public class Anarquista : MonoBehaviour, IDamageable
         {
             rig.velocity = Vector2.up * jumpForce;
             jumpTimeCounter = jumpTime;
-            FindObjectOfType<AudioManager>().Play("pulo");
         }
 
 
@@ -163,11 +160,6 @@ public class Anarquista : MonoBehaviour, IDamageable
             }
 
         }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            isJumping = false;
-        }
     }
     private void Ataque()
     {
@@ -176,7 +168,7 @@ public class Anarquista : MonoBehaviour, IDamageable
             FindObjectOfType<AudioManager>().Play("ataque");
             this.animator.SetBool("Ataque", true);
             Invoke("ActivateHitbox", 0.2f); // Activate hitbox after 0.2 seconds.
-            Invoke("DeactivateHitbox", 0.4f); // Deactivate hitbox after 0.4 seconds.
+            Invoke("DeactivateHitbox", 0.6f); // Deactivate hitbox after 0.4 seconds.
         }
         else
         {

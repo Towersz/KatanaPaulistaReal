@@ -1,0 +1,1548 @@
+fileFormatVersion: 2
+guid: 4dbb39761d259df4fac518cd6bd522c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 900
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d868c122cad24a8488e467785b078629
+      internalID: -414068864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 900
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4f1370eabc577488436d370204b6c6
+      internalID: 1379660471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 900
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe9a5594dba154595c0945ccdd7d43
+      internalID: 2070511188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 900
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412b7260668f6c648afe3d32d910dc39
+      internalID: -1276993609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 900
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1305ac26a33fc646a409d7919cb8486
+      internalID: -1038438858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 900
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164d258a938eadc4fa980ecc9d705a3c
+      internalID: -1055184202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 900
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f44c458c160e4b4d8337c53437b67f8
+      internalID: -1577639233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 900
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1407300bbdbfe1b41a7a731ac1613f78
+      internalID: 2011444271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 900
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45acdb5caaa6de4aa73966c36f68aca
+      internalID: -823800022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_27
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 804
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ffb92b2fad6044d96a212f1bffc01c
+      internalID: -694067753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_28
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 804
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c032cafb3d9d4ca074f330d144f98
+      internalID: -515894463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 805
+        width: 25
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d01effc25a2f445ad7430bcf0fe23a
+      internalID: 319464856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 804
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541a7dced27193547928f72a9dcf385f
+      internalID: -1894304010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 804
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2f230360a2f48468e3390eabf8142d
+      internalID: -1930659806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 804
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0987bc0e8490910449f1b5ca2f347825
+      internalID: -1381348018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_33
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 804
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18294a57d53e3b247a0fe44b514cee93
+      internalID: 403649758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_34
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 804
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480bf23be109907439816afaf7b20512
+      internalID: -1305132670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 755
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95454544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f0f385976fd184a8d34eb56bdd6777
+      internalID: -838733704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 755
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9130435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a161daa22b0349a4caa071913f72dd29
+      internalID: -800009041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 755
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54c6aad50e8e214a81a5cd8f5a9645b
+      internalID: -480966708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 755
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc0ba421ab6a5f49b9a279bbab6a0e8
+      internalID: -636402782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 755
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a121e619f7ddc924c97ba506caa795c1
+      internalID: 1210944637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 755
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc63febd2b0b19f4fb973f93cea72961
+      internalID: -1592810548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 755
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95454544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad56dd3ef205f9f4e94641843c515288
+      internalID: 855097880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_53
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 641
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14eeed6b34218b46811811ce8d7b939
+      internalID: -1666129224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 641
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781878866c3bb7d46a9e33db6e6fd959
+      internalID: 1150688309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_55
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 641
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63789193d8ea1664e9ea0f70c75a5e5e
+      internalID: 1903780873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 644
+        width: 30
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1005e7e98baa0a84f8d524a69a432d2c
+      internalID: 619443727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_57
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 641
+        width: 33
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f993380e04267fa4598ca96db017a2ba
+      internalID: 807960113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_58
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 641
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6818182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874c45d4940443848bb87e4c8b4b8a59
+      internalID: 1143719385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_59
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 641
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12964febeecd4054bb487dd2448ff4d1
+      internalID: -58938520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_60
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 641
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fa0946387e4ef4c9d59a97bf04e893
+      internalID: -495803543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_61
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 643
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6818182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5882d00b5c5acb4cafd2c3b089a910b
+      internalID: 444399838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_62
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 641
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4de6f9f68614fe458e4fc77eb794eb2
+      internalID: -1082092029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_63
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 647
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9498a9b9bbc9c4286f9b704631a787
+      internalID: -1298234886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_70
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 567
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406b1d6603bbc724d8139096b9057aae
+      internalID: -872376706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_87
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 404
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ac2a1c20d69d4680fcc210364bf98
+      internalID: -198203015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_88
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 404
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a254d504d79da4293797091349a811
+      internalID: 1209110132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_89
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 404
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75c9195cdd1afe4b9efd94f2aa97315
+      internalID: -1545760009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_90
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 404
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293d9f40fb55e774ba290140364e5adb
+      internalID: 39535569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_91
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 403
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fd4494382cd6f48a819552ce1d307d
+      internalID: 1456953738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_92
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 403
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d024205a8d7875146af683a32ae76ae4
+      internalID: 1328510077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_93
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 403
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e855af47fbfbe24699affbc012ef0a5
+      internalID: 707341240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_94
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 403
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492a00ffaab97394bb3ddf437f1ebdda
+      internalID: -826894722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_96
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 323
+        width: 22
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9044fa86502f22648b556305f7be5448
+      internalID: 372061079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 329
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6818182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8563afb092b857745971e59eef94b343
+      internalID: 1967456406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_98
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 335
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd8a4a85045ac14eb9bff89875ad8eb
+      internalID: 117678352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_99
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 336
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3869a9e2966c2418533a9b22b5a8fe
+      internalID: -1982500964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_100
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 336
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d803b1205950c4a99a8f3db1eb5b88
+      internalID: -1268684035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_101
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 333
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc129913e5e7345864a20bbbfcc97c
+      internalID: 2104944134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_102
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 334
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d460f897d426521459cc0365f0cf8107
+      internalID: -1916094782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_106
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 329
+        width: 41
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576ae0ef2f4102a4dbb2affe5a5c2200
+      internalID: -69123465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_107
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 328
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa706b28fab0e4f4f999fa8072b46628
+      internalID: -696123111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_110
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 259
+        width: 28
+        height: 30
+      alignment: 9
+      pivot: {x: 0.39285713, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1043064f89633f547808ebf1ce2a9fc9
+      internalID: 1277358066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_111
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 259
+        width: 36
+        height: 32
+      alignment: 9
+      pivot: {x: 0.30555555, y: 0.46875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feabf49e1bf71d4fbf378e848166827
+      internalID: -1705981487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_112
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 259
+        width: 27
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4074074, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa4065e7c5711e44a9ed27a039507e3
+      internalID: -1156269690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 259
+        width: 30
+        height: 22
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.6818182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefa7074eac36424aa501baae1d68fbc
+      internalID: 1537522260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_114
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 259
+        width: 31
+        height: 23
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.65217394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7863d0be79413ba4e8701cf1e051dc9c
+      internalID: 766256292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_115
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 259
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4516129, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92590d41c6b91724ea103f9625e6647e
+      internalID: 291998173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_116
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 259
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ea9b7d4a0a324468cca72799dd9c40
+      internalID: -1840192157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_117
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 259
+        width: 39
+        height: 24
+      alignment: 9
+      pivot: {x: 0.2820513, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0aaa511f859ac44967591497a617b2
+      internalID: 1883213684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetTorresmoCompleto1.0_118
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 259
+        width: 39
+        height: 24
+      alignment: 9
+      pivot: {x: 0.2820513, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a18a767cc1a7ed428d45a9af7eb58fb
+      internalID: 1210460711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteSheetTorresmoCompleto1.0_0: 78008715
+      SpriteSheetTorresmoCompleto1.0_1: 333752789
+      SpriteSheetTorresmoCompleto1.0_10: 1379660471
+      SpriteSheetTorresmoCompleto1.0_100: -1268684035
+      SpriteSheetTorresmoCompleto1.0_101: 2104944134
+      SpriteSheetTorresmoCompleto1.0_102: -1916094782
+      SpriteSheetTorresmoCompleto1.0_103: 2021444935
+      SpriteSheetTorresmoCompleto1.0_104: 1055935271
+      SpriteSheetTorresmoCompleto1.0_105: 92377582
+      SpriteSheetTorresmoCompleto1.0_106: -69123465
+      SpriteSheetTorresmoCompleto1.0_107: -696123111
+      SpriteSheetTorresmoCompleto1.0_108: -134211661
+      SpriteSheetTorresmoCompleto1.0_109: 1519498790
+      SpriteSheetTorresmoCompleto1.0_11: 2070511188
+      SpriteSheetTorresmoCompleto1.0_110: 1277358066
+      SpriteSheetTorresmoCompleto1.0_111: -1705981487
+      SpriteSheetTorresmoCompleto1.0_112: -1156269690
+      SpriteSheetTorresmoCompleto1.0_113: 1537522260
+      SpriteSheetTorresmoCompleto1.0_114: 766256292
+      SpriteSheetTorresmoCompleto1.0_115: 291998173
+      SpriteSheetTorresmoCompleto1.0_116: -1840192157
+      SpriteSheetTorresmoCompleto1.0_117: 1883213684
+      SpriteSheetTorresmoCompleto1.0_118: 1210460711
+      SpriteSheetTorresmoCompleto1.0_12: -1276993609
+      SpriteSheetTorresmoCompleto1.0_13: -1038438858
+      SpriteSheetTorresmoCompleto1.0_14: -1055184202
+      SpriteSheetTorresmoCompleto1.0_15: -1577639233
+      SpriteSheetTorresmoCompleto1.0_16: 2011444271
+      SpriteSheetTorresmoCompleto1.0_17: -823800022
+      SpriteSheetTorresmoCompleto1.0_18: 2059121929
+      SpriteSheetTorresmoCompleto1.0_19: -220842548
+      SpriteSheetTorresmoCompleto1.0_2: 1291020416
+      SpriteSheetTorresmoCompleto1.0_20: 467017760
+      SpriteSheetTorresmoCompleto1.0_21: -1857601705
+      SpriteSheetTorresmoCompleto1.0_22: 2120407489
+      SpriteSheetTorresmoCompleto1.0_23: 1886554956
+      SpriteSheetTorresmoCompleto1.0_24: 1872668241
+      SpriteSheetTorresmoCompleto1.0_25: 882060203
+      SpriteSheetTorresmoCompleto1.0_26: 1378030887
+      SpriteSheetTorresmoCompleto1.0_27: -694067753
+      SpriteSheetTorresmoCompleto1.0_28: -515894463
+      SpriteSheetTorresmoCompleto1.0_29: 319464856
+      SpriteSheetTorresmoCompleto1.0_3: -2038637176
+      SpriteSheetTorresmoCompleto1.0_30: -1894304010
+      SpriteSheetTorresmoCompleto1.0_31: -1930659806
+      SpriteSheetTorresmoCompleto1.0_32: -1381348018
+      SpriteSheetTorresmoCompleto1.0_33: 403649758
+      SpriteSheetTorresmoCompleto1.0_34: -1305132670
+      SpriteSheetTorresmoCompleto1.0_35: -838733704
+      SpriteSheetTorresmoCompleto1.0_36: -800009041
+      SpriteSheetTorresmoCompleto1.0_37: -480966708
+      SpriteSheetTorresmoCompleto1.0_38: -636402782
+      SpriteSheetTorresmoCompleto1.0_39: 1210944637
+      SpriteSheetTorresmoCompleto1.0_4: -1344319724
+      SpriteSheetTorresmoCompleto1.0_40: -1592810548
+      SpriteSheetTorresmoCompleto1.0_41: 855097880
+      SpriteSheetTorresmoCompleto1.0_42: -1445289983
+      SpriteSheetTorresmoCompleto1.0_43: -127302178
+      SpriteSheetTorresmoCompleto1.0_44: -227679963
+      SpriteSheetTorresmoCompleto1.0_45: 1358521665
+      SpriteSheetTorresmoCompleto1.0_46: -1407712587
+      SpriteSheetTorresmoCompleto1.0_47: -2106175824
+      SpriteSheetTorresmoCompleto1.0_48: 1273012704
+      SpriteSheetTorresmoCompleto1.0_49: -2110010547
+      SpriteSheetTorresmoCompleto1.0_5: 463261658
+      SpriteSheetTorresmoCompleto1.0_50: -1923393951
+      SpriteSheetTorresmoCompleto1.0_51: 1682487532
+      SpriteSheetTorresmoCompleto1.0_52: 2010640585
+      SpriteSheetTorresmoCompleto1.0_53: -1666129224
+      SpriteSheetTorresmoCompleto1.0_54: 1150688309
+      SpriteSheetTorresmoCompleto1.0_55: 1903780873
+      SpriteSheetTorresmoCompleto1.0_56: 619443727
+      SpriteSheetTorresmoCompleto1.0_57: 807960113
+      SpriteSheetTorresmoCompleto1.0_58: 1143719385
+      SpriteSheetTorresmoCompleto1.0_59: -58938520
+      SpriteSheetTorresmoCompleto1.0_6: 1688258664
+      SpriteSheetTorresmoCompleto1.0_60: -495803543
+      SpriteSheetTorresmoCompleto1.0_61: 444399838
+      SpriteSheetTorresmoCompleto1.0_62: -1082092029
+      SpriteSheetTorresmoCompleto1.0_63: -1298234886
+      SpriteSheetTorresmoCompleto1.0_64: -1331545901
+      SpriteSheetTorresmoCompleto1.0_65: 52389223
+      SpriteSheetTorresmoCompleto1.0_66: -1082262514
+      SpriteSheetTorresmoCompleto1.0_67: 1701519036
+      SpriteSheetTorresmoCompleto1.0_68: 1644422196
+      SpriteSheetTorresmoCompleto1.0_69: 1768648788
+      SpriteSheetTorresmoCompleto1.0_7: 573417092
+      SpriteSheetTorresmoCompleto1.0_70: -872376706
+      SpriteSheetTorresmoCompleto1.0_71: -1711988182
+      SpriteSheetTorresmoCompleto1.0_72: -1106492672
+      SpriteSheetTorresmoCompleto1.0_73: -2044860275
+      SpriteSheetTorresmoCompleto1.0_74: -832318367
+      SpriteSheetTorresmoCompleto1.0_75: 241402891
+      SpriteSheetTorresmoCompleto1.0_76: -1756534457
+      SpriteSheetTorresmoCompleto1.0_77: 1569701018
+      SpriteSheetTorresmoCompleto1.0_78: 841647352
+      SpriteSheetTorresmoCompleto1.0_79: 1803530587
+      SpriteSheetTorresmoCompleto1.0_8: 1833105272
+      SpriteSheetTorresmoCompleto1.0_80: -1489651537
+      SpriteSheetTorresmoCompleto1.0_81: 661210504
+      SpriteSheetTorresmoCompleto1.0_82: 1350005580
+      SpriteSheetTorresmoCompleto1.0_83: -744578786
+      SpriteSheetTorresmoCompleto1.0_84: 1376869983
+      SpriteSheetTorresmoCompleto1.0_85: -1455571868
+      SpriteSheetTorresmoCompleto1.0_86: 1614543527
+      SpriteSheetTorresmoCompleto1.0_87: -198203015
+      SpriteSheetTorresmoCompleto1.0_88: 1209110132
+      SpriteSheetTorresmoCompleto1.0_89: -1545760009
+      SpriteSheetTorresmoCompleto1.0_9: -414068864
+      SpriteSheetTorresmoCompleto1.0_90: 39535569
+      SpriteSheetTorresmoCompleto1.0_91: 1456953738
+      SpriteSheetTorresmoCompleto1.0_92: 1328510077
+      SpriteSheetTorresmoCompleto1.0_93: 707341240
+      SpriteSheetTorresmoCompleto1.0_94: -826894722
+      SpriteSheetTorresmoCompleto1.0_95: -617621390
+      SpriteSheetTorresmoCompleto1.0_96: 372061079
+      SpriteSheetTorresmoCompleto1.0_97: 1967456406
+      SpriteSheetTorresmoCompleto1.0_98: 117678352
+      SpriteSheetTorresmoCompleto1.0_99: -1982500964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,7 +26,6 @@ public class Coca : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.SendMessage("Droga", 1);
-            FindObjectOfType<AudioManager>().Play("Item II");
             collision.gameObject.SendMessage("SetTimeScaleItem", new float[] { SpeedUp, SpeedUpDur });
 
             Destroy(gameObject);
