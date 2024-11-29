@@ -16,7 +16,8 @@ public class BuffUps : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.SendMessage("Cura", 5);
-          
+            FindObjectOfType<AudioManager>().Play("Item II");
+
 
             Destroy(gameObject);
         }

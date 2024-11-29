@@ -78,9 +78,11 @@ public class Anarquista : MonoBehaviour, IDamageable
         animação();
         Ataque();
         if (health <= 0)
-            Destroy(gameObject);
+            
+        Destroy(gameObject);
         if (Drug >= 5)
-            Destroy(gameObject);
+            
+        Destroy(gameObject);
 
 
         //apaga
@@ -113,7 +115,7 @@ public class Anarquista : MonoBehaviour, IDamageable
             float velocidadeX = Mathf.Abs(rig.velocity.x);
 
             this.animator.SetBool("Andando", true);
-            FindObjectOfType<AudioManager>().Play("andando");
+            FindObjectOfType<AudioManager>().Play("correndo");
         }
         else
         {
@@ -124,6 +126,7 @@ public class Anarquista : MonoBehaviour, IDamageable
         {
 
             this.animator.SetBool("Correndo", true);
+            FindObjectOfType<AudioManager>().Play("correndo");
             Vel = 400;
         }
         else
@@ -142,6 +145,7 @@ public class Anarquista : MonoBehaviour, IDamageable
         {
             rig.velocity = Vector2.up * jumpForce;
             jumpTimeCounter = jumpTime;
+            FindObjectOfType<AudioManager>().Play("pulo");
         }
 
 

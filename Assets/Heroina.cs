@@ -25,6 +25,7 @@ public class Heroina : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.SendMessage("Droga",1);
+            FindObjectOfType<AudioManager>().Play("Item III");
             Debug.Log("colidiu"+ collision.gameObject.name);
             collision.gameObject.SendMessage("SetTimeScaleItem", new float[] { SpeedUp, SpeedUpDur });
 
